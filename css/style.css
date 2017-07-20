@@ -1,0 +1,136 @@
+html, body {
+	margin: 0px;
+	background: #000;
+}
+
+body {
+	padding-top: 150px;
+}
+
+#header {
+	line-height: 30px;
+	width: 100%;
+	border-bottom: 2px solid #008DD4;
+	background: white;
+	box-shadow: 1px 0px 25px rgba(0, 0, 0, 0.3);
+	text-shadow: 0px 0px 20px rgba(0, 141, 212, 0.52);
+}
+
+#footer {
+	background: black;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;
+	padding: 15px;
+	text-align: center;
+}
+
+#footer .logo {
+	float: right;
+	height: 30px;
+	width: 100px;
+	margin-left: -100px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+#header h1 {
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	width: 90%;
+}
+
+.block {
+	border: 1px solid #EEE;
+	padding: 10px;
+	margin: 5px 0px;
+	transition: border-color 0.1s linear;
+	background: #FFF;
+}
+
+.track .picture {
+	width: 130px;
+	height: 130px;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+.center {
+	text-align: center;
+}
+
+.vs {
+	font-size: 54px;
+	vertical-align: middle;
+}
+
+.artist-score {
+	font-size: 200px;
+	font-weight: bold;
+	padding: 20px 0px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3 {
+	font-family: 'Hammersmith One', sans-serif !important;
+	font-size: 36px;
+	text-align: center;
+	padding: 10px;
+}
+h3 {
+	font-size: 28px;
+}
+
+form {
+	font-family: 'Hammersmith One', sans-serif !important;
+	margin: 50px 0px 20px;
+	clear: both;
+}
+
+.lucky {
+	margin-bottom: 80px;
+}
+
+input[type='text'].input {
+	font-size: 32px;
+	outline: none;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #CCC;
+	max-width: 100%;
+}
+
+input[type='text'].input:focus {
+	border-color: #008DD4;
+}
+
+input[type='submit']:focus, input[type='submit']:active {
+	outline: none !important;
+}
+
+
+.elementHovered {
+  background-color: #dee5f3;
+	cursor: pointer;
+	border: 1px solid #b0cbd8;
+
+	/*Some blur effect if want*/
+	/*filter: blur(0.5px);*/
+}
+.margin_top{
+	margin-top: 7%;
+}
